@@ -31,7 +31,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Question text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="20z-wQ-RVg">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Question Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="20z-wQ-RVg">
                                         <rect key="frame" x="0.0" y="54.5" width="343" height="233"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
@@ -50,6 +50,9 @@
                                         <rect key="frame" x="0.0" y="561" width="343" height="70"/>
                                         <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
                                         <state key="normal" title="Final Answer!"/>
+                                        <connections>
+                                            <action selector="submitButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t3Y-8b-hb1"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
