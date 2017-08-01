@@ -12,6 +12,7 @@
 		94E5CD4D1F30C421003424F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E5CD4B1F30C421003424F4 /* Main.storyboard */; };
 		94E5CD4F1F30C421003424F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E5CD4E1F30C421003424F4 /* Assets.xcassets */; };
 		94E5CD521F30C421003424F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E5CD501F30C421003424F4 /* LaunchScreen.storyboard */; };
+		94E5CD5A1F30F7B0003424F4 /* Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E5CD591F30F7B0003424F4 /* Flashcards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		94E5CD4E1F30C421003424F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E5CD511F30C421003424F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E5CD531F30C421003424F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E5CD591F30F7B0003424F4 /* Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashcards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				94E5CD471F30C421003424F4 /* AppDelegate.swift */,
 				94E5CD491F30C421003424F4 /* ViewController.swift */,
 				94E5CD4B1F30C421003424F4 /* Main.storyboard */,
+				94E5CD591F30F7B0003424F4 /* Flashcards.swift */,
 				94E5CD4E1F30C421003424F4 /* Assets.xcassets */,
 				94E5CD501F30C421003424F4 /* LaunchScreen.storyboard */,
 				94E5CD531F30C421003424F4 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E5CD5A1F30F7B0003424F4 /* Flashcards.swift in Sources */,
 				94E5CD4A1F30C421003424F4 /* ViewController.swift in Sources */,
 				94E5CD481F30C421003424F4 /* AppDelegate.swift in Sources */,
 			);
