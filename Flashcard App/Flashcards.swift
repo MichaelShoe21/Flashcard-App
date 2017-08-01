@@ -37,9 +37,9 @@ class CardCollection {
     
     private init(){
        
-        cards = [ Flashcard(question: "Test Question", options: ["True","False"]),
-                  Flashcard(question: "What's the capitol of Washington state?", options:["Olympia", "Tacoma", "Seattle", "Spokane"]),
-                  Flashcard(question: "Where is iD Tech's headquarters?", options:["Campbell, CA", "Albequerque, NM", "Beijing, CN"])]
+        cards = [ Flashcard(question: "How many letters does the word alphabet contain?", options: ["8","15"]),
+                  Flashcard(question: "What color is the sky?", options:["Grey", "Green", "Purple", "Red", "Orange", "Blue"]),
+                  Flashcard(question: "Which sentence is correct grammatically?", options:["Lets eat Grandma!", "Let's eat grandma!"])]
         
         currentIndex = 0;
         

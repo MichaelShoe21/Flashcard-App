@@ -26,13 +26,13 @@ class ViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDeleg
         }
         
         else {
-            // answer incorrect
-            // expand to check finished code.
             alert = UIAlertController(title: "Wrong", message: "Incorrect Answer.", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Aww, man.", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true)
             
         }
+        CardCollection.instance.nextQuestion()
+        setupCardUI()
     }
     @IBOutlet weak var questionLabel: UILabel!
     override func viewDidLoad() {
@@ -54,6 +54,8 @@ class ViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDeleg
         questionTextView.text = CardCollection.instance.currentCard.question
         
         questionLabel.text = "Question \(CardCollection.instance.currentIndex + 1)/\(CardCollection.instance.cards.count)"
+    
+     answerPickerView.reloadAllComponents()
     }
     
     // Pickerview Data Source

@@ -33,7 +33,7 @@
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Question Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="20z-wQ-RVg">
                                         <rect key="frame" x="0.0" y="54.5" width="343" height="233"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="0.0099468241870000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -49,7 +49,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hch-oD-y59">
                                         <rect key="frame" x="0.0" y="561" width="343" height="70"/>
                                         <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
-                                        <state key="normal" title="Final Answer!"/>
+                                        <state key="normal" title="Final Answer!">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="submitButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t3Y-8b-hb1"/>
                                         </connections>
@@ -57,7 +59,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.0099468241871529806" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oQg-gH-8Hx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0Hh-XT-wcv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oQg-gH-8Hx" secondAttribute="trailing" id="4BH-f1-o46"/>
