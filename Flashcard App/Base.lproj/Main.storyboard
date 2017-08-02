@@ -33,7 +33,6 @@
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Question Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="20z-wQ-RVg">
                                         <rect key="frame" x="0.0" y="54.5" width="343" height="233"/>
-                                        <color key="backgroundColor" red="1" green="0.0099468241870000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -59,7 +58,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.0099468241871529806" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.38506366069999998" green="1" blue="0.60222449300000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oQg-gH-8Hx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0Hh-XT-wcv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oQg-gH-8Hx" secondAttribute="trailing" id="4BH-f1-o46"/>
@@ -75,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="93.599999999999994" y="49.025487256371818"/>
+            <point key="canvasLocation" x="87" y="45"/>
         </scene>
     </scenes>
 </document>

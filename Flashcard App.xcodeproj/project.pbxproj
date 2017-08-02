@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					94E5CD431F30C421003424F4 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7WBDW4RD54;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -266,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7WBDW4RD54;
 				INFOPLIST_FILE = "Flashcard App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iDTech.Michael.Flashcard-App";
@@ -278,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7WBDW4RD54;
 				INFOPLIST_FILE = "Flashcard App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iDTech.Michael.Flashcard-App";
@@ -305,6 +308,7 @@
 				94E5CD581F30C421003424F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
